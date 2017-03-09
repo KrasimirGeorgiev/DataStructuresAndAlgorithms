@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement PriorityQueue", "Implement PriorityQueue\Implement PriorityQueue.csproj", "{303B5D14-951B-43CE-8F89-E939C69ED21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapStructures.Tests", "HeapStructures.Tests\HeapStructures.Tests.csproj", "{A314F814-6163-43D9-B2A8-D894A04F3580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Top Products In A Price Range", "Find Top Products In A Price Range\Find Top Products In A Price Range.csproj", "{9A849E4F-C240-4E76-A87F-E62826930A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Set Of Word In A File", "Find Set Of Word In A File\Find Set Of Word In A File.csproj", "{1DB5512A-4867-408B-B2DA-627D7E08898A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{303B5D14-951B-43CE-8F89-E939C69ED21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303B5D14-951B-43CE-8F89-E939C69ED21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303B5D14-951B-43CE-8F89-E939C69ED21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303B5D14-951B-43CE-8F89-E939C69ED21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A314F814-6163-43D9-B2A8-D894A04F3580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A314F814-6163-43D9-B2A8-D894A04F3580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A314F814-6163-43D9-B2A8-D894A04F3580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A314F814-6163-43D9-B2A8-D894A04F3580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB5512A-4867-408B-B2DA-627D7E08898A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB5512A-4867-408B-B2DA-627D7E08898A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB5512A-4867-408B-B2DA-627D7E08898A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB5512A-4867-408B-B2DA-627D7E08898A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Helpers</name>
+    </assembly>
+    <members>
+        <member name="T:HomeworkHelpers.ConsoleHelper">
+            <summary>
+            Console helper library for printig colored messages
+            </summary>
+        </member>
+        <member name="M:HomeworkHelpers.HomeworkHelper.ReadCollection``1(``0,System.Char[])">
+            <summary>
+            Reads a sequence from the console and tries to convert it to the given template type
+            </summary>
+            <typeparam name="T">Works with all convertible types</typeparam>
+            <param name="template">
+            A template parameter whose value is irrelevant, 
+            it only feed in the tpye of the output collection
+            </param>
+            <param name="splitChars">
+            The desired split characters - set to null to use the default 
+            single space separato
+            r</param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeworkHelpers.HomeworkHelper.GetCollectionFromUserChoice``1(``0,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            A more convenient but slightly more restrictive (Doesn't generate strings) 
+            collection generator
+            </summary>
+            <typeparam name="T">
+            Should work for all numeric types
+            </typeparam>
+            <param name="template">
+            A template parameter whose value is irrelevant, 
+            it only feed in the tpye of the output collection
+            </param>
+            <param name="size"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns>A random generated collection of the given type</returns>
+        </member>
+        <member name="M:HomeworkHelpers.StreamHomeworkHelper.GetDirectory">
+            <summary>
+            Method to select a folder by entering it's name or selecting it from a pop up window
+            If in a console application the pop up won't work unless[StaThread] attribute is added
+            on the Main method of the application
+            </summary>
+            <returns>The path to the selected directory</returns>
+        </member>
+        <member name="M:HomeworkHelpers.StreamHomeworkHelper.GetDirectoryFiles(System.IO.DirectoryInfo)">
+            <summary>
+            Extract files from directory and sorts them by size and name
+            </summary>
+            <param name="dirInfo">directory to work in</param>
+            <returns>
+            Dictionary of key - the file extension and value - list of files under that extension
+            </returns>
+        </member>
+        <member name="T:HomeworkHelpers.Xml.DirectoryTraverse">
+            <summary>
+            Implemented Template Method Pattern :)
+            </summary>
+        </member>
+    </members>
+</doc>

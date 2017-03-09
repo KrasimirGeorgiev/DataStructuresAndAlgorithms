@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1 Iteration Simulation", "Task 1 Iteration Simulation\Task 1 Iteration Simulation.csproj", "{9A849E4F-C240-4E76-A87F-E62826930A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2 and 3 Generate Combinations", "Task 2 and 3 Generate Combinations\Task 2 and 3 Generate Combinations.csproj", "{C9C5760D-92CF-4AAE-80A9-6C85AA573597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4 Generate Permutations", "Task 4 Generate Permutations\Task 4 Generate Permutations.csproj", "{418A8019-2BAD-48B6-B6A6-000008024216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolvers", "ProblemSolvers\ProblemSolvers.csproj", "{5A68E74E-E3AF-4E26-ADF2-ED38D5EFD891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5 Ordered Subsets", "Task 5 Ordered Subsets\Task 5 Ordered Subsets.csproj", "{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6 All Subsets of K Strings", "Task 6 All Subsets of K Strings\Task 6 All Subsets of K Strings.csproj", "{E480EDD3-E16C-4977-ABB7-6F663962BB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7, 9 and 10 Labyrinth Of Doom", "Task 7, 9 and 10 Labyrinth Of Doom\Task 7, 9 and 10 Labyrinth Of Doom.csproj", "{996BFD85-499B-4C67-8B0F-A7D05C20F915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A849E4F-C240-4E76-A87F-E62826930A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C5760D-92CF-4AAE-80A9-6C85AA573597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C5760D-92CF-4AAE-80A9-6C85AA573597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C5760D-92CF-4AAE-80A9-6C85AA573597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C5760D-92CF-4AAE-80A9-6C85AA573597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418A8019-2BAD-48B6-B6A6-000008024216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418A8019-2BAD-48B6-B6A6-000008024216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418A8019-2BAD-48B6-B6A6-000008024216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418A8019-2BAD-48B6-B6A6-000008024216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A68E74E-E3AF-4E26-ADF2-ED38D5EFD891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A68E74E-E3AF-4E26-ADF2-ED38D5EFD891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A68E74E-E3AF-4E26-ADF2-ED38D5EFD891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A68E74E-E3AF-4E26-ADF2-ED38D5EFD891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F269539-7654-4C02-BCF6-8C3ADFEBBECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E480EDD3-E16C-4977-ABB7-6F663962BB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E480EDD3-E16C-4977-ABB7-6F663962BB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E480EDD3-E16C-4977-ABB7-6F663962BB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E480EDD3-E16C-4977-ABB7-6F663962BB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996BFD85-499B-4C67-8B0F-A7D05C20F915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996BFD85-499B-4C67-8B0F-A7D05C20F915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996BFD85-499B-4C67-8B0F-A7D05C20F915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996BFD85-499B-4C67-8B0F-A7D05C20F915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

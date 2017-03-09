@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Helpers</name>
+    </assembly>
+    <members>
+        <member name="T:HomeworkHelpers.ConsoleEnchantments.ConsoleWriter">
+            <summary>
+            Console helper library for printig colored messages
+            </summary>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleWriter.Setup(System.ConsoleColor,System.ConsoleColor,System.Int32)">
+            <summary>
+            Sets up overall console apperanace, ecnoding to unicode and window width
+            </summary>
+            <param name="color"></param>
+            <param name="background"></param>
+            <param name="windowWidth"></param>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleWriter.Restart(System.Action)">
+            <summary>
+            Restarts the given method, usually for Main.
+            </summary>
+            <param name="restartCallback"></param>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleWriter.CreateMenu``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Creates a <see cref="T:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1"/> from a list of items
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="items"></param>
+            <returns>Returns a menu that can be displayed</returns>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleWriter.CreateMenu``1(System.Collections.Generic.IList{``0},System.String)">
+            <summary>
+            Creates a <see cref="T:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1"/> from a list of items
+            the items are displayed with the given <paramref name="prefix"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="items"></param>
+            <param name="prefix">A template prefix that will be printed before each item</param>
+            <returns>Returns a menu that can be displayed</returns>
+        </member>
+        <member name="T:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1">
+            <summary>
+            A Simple select up and down from a list of options Console Menu
+            </summary>
+            <typeparam name="T">the type behind the menu option</typeparam>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.#ctor(HomeworkHelpers.ConsoleEnchantments.IConsoleWriter)">
+            <summary>
+            Creates an empty menu
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.#ctor(HomeworkHelpers.ConsoleEnchantments.IConsoleWriter,System.Collections.Generic.IList{`0})">
+            <summary>
+            Creates a menu from a list of options
+            </summary>
+            <param name="writer"></param>
+            <param name="items"></param>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.#ctor(HomeworkHelpers.ConsoleEnchantments.IConsoleWriter,System.Collections.Generic.IList{`0},System.String)">
+            <summary>
+            Creates a menu from a list of options displaying the options with the 
+            specified <paramref name="prefix"/>
+            </summary>
+            <param name="writer"></param>
+            <param name="items"></param>
+            <param name="prefix"></param>
+        </member>
+        <member name="P:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.MenuItems">
+            <summary>
+            Gets the items of the menu
+            </summary>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.AddItem(`0)">
+            <summary>
+            Adds an item to the menu O(1)
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.RemoveItem(`0)">
+            <summary>
+            Removes an item from the menu O(n)
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeworkHelpers.ConsoleEnchantments.ConsoleMenu`1.DisplayMenu(System.ConsoleColor,System.ConsoleColor)">
+            <summary>
+            Displays the menu, the menu stays on until an option is selected with 'Enter'
+            </summary>
+            <returns>The coresponding selected item</returns>
+        </member>
+        <member name="M:HomeworkHelpers.HomeworkHelper.ReadCollection``1(``0,System.Char[])">
+            <summary>
+            Reads a sequence from the console and tries to convert it to the given template type
+            </summary>
+            <typeparam name="T">Works with all convertible types</typeparam>
+            <param name="template">
+            A template parameter whose value is irrelevant, 
+            it only feed in the tpye of the output collection
+            </param>
+            <param name="splitChars">
+            The desired split characters - set to null to use the default 
+            single space separato
+            r</param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeworkHelpers.HomeworkHelper.GetCollectionFromUserChoice``1(``0,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            A more convenient but slightly more restrictive (Doesn't generate strings) 
+            collection generator
+            </summary>
+            <typeparam name="T">
+            Should work for all numeric types
+            </typeparam>
+            <param name="template">
+            A template parameter whose value is irrelevant, 
+            it only feed in the tpye of the output collection
+            </param>
+            <param name="size"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns>A random generated collection of the given type</returns>
+        </member>
+        <member name="M:HomeworkHelpers.StreamHomeworkHelper.GetDirectory">
+            <summary>
+            Method to select a folder by entering it's name or selecting it from a pop up window
+            If in a console application the pop up won't work unless[StaThread] attribute is added
+            on the Main method of the application
+            </summary>
+            <returns>The path to the selected directory</returns>
+        </member>
+        <member name="M:HomeworkHelpers.StreamHomeworkHelper.GetMyIp">
+            <summary>
+            Looks for the public Ip Address of the current computer
+            </summary>
+            <returns>string in the ip address format</returns>
+        </member>
+        <member name="M:HomeworkHelpers.StreamHomeworkHelper.GetDirectoryFiles(System.IO.DirectoryInfo)">
+            <summary>
+            Extract files from directory and sorts them by size and name
+            </summary>
+            <param name="dirInfo">directory to work in</param>
+            <returns>
+            Dictionary of key - the file extension and value - list of files under that extension
+            </returns>
+        </member>
+        <member name="T:HomeworkHelpers.Xml.DirectoryTraverse">
+            <summary>
+            Implemented Template Method Pattern :)
+            </summary>
+        </member>
+    </members>
+</doc>

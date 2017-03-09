@@ -1,0 +1,9 @@
+Kiril  | Ivanov   | C#
+Stefka | Nikolova | SQL
+Stela  | Mineva   | Java
+Milena | Petrova  | C#
+Ivan   | Grigorov | C#
+Stela  | Mineva   | JavaScript
+Ivan   | Kolev    | SQL
+Boyan  | Ivanov   | C#
+Boyan  | Ivanov   | JavaScript

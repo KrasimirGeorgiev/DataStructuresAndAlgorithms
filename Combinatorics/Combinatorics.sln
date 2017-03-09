@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Passwords", "Binary Passwords\Binary Passwords.csproj", "{4C095AB7-0B85-44C4-B71A-40F93D565542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Color Bunnies", "Color Bunnies\Color Bunnies.csproj", "{4E476A5D-4FAA-4E58-875C-9B124585EC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotic Zombie Camel", "Robotic Zombie Camel\Robotic Zombie Camel.csproj", "{ED5F0BA9-BB18-47E5-98AF-2F616CF22E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C095AB7-0B85-44C4-B71A-40F93D565542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C095AB7-0B85-44C4-B71A-40F93D565542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C095AB7-0B85-44C4-B71A-40F93D565542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C095AB7-0B85-44C4-B71A-40F93D565542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E476A5D-4FAA-4E58-875C-9B124585EC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E476A5D-4FAA-4E58-875C-9B124585EC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E476A5D-4FAA-4E58-875C-9B124585EC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E476A5D-4FAA-4E58-875C-9B124585EC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F0BA9-BB18-47E5-98AF-2F616CF22E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F0BA9-BB18-47E5-98AF-2F616CF22E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F0BA9-BB18-47E5-98AF-2F616CF22E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F0BA9-BB18-47E5-98AF-2F616CF22E99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
